@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Java+%7C+Spring+Boot+%7C+Microservicios;Kafka+%7C+Docker+%7C+Jenkins+%7C+GitHub+Actions;Agentic+coding+con+Claude+Code+y+Codex+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2F81F7&center=true&vCenter=true&width=620&lines=Java+21+%7C+Spring+Boot+3+%7C+Microservicios;Kafka+%7C+Spring+Modulith+%7C+Testcontainers;Agentic+coding+con+Claude+Code+y+Codex+%F0%9F%A4%96" alt="Typing SVG" />
 </p>
 
 ---
@@ -13,8 +13,8 @@
 ### 🙋 Sobre mí
 
 - 🛠️ Trabajo como **Java Backend Developer & DevOps Engineer en NTT DATA**, en aplicaciones en producción del sector energético: Spring Boot, Spring Batch, Hibernate/JPA y pipelines de Jenkins sobre Oracle Cloud.
-- 🧩 En mis proyectos personales construyo **microservicios con Spring Cloud y Kafka**, clientes **reactivos con WebFlux y Resilience4j** y frontends en **React + TypeScript**.
-- 🤖 Uso a diario **Claude Code y Codex**, y me interesa trabajar bien con agentes de IA: contexto, prompt engineering, skills, MCP y SDD.
+- 🧩 En mis proyectos personales construyo **microservicios con Spring Cloud y Kafka**, **monolitos modulares con Spring Modulith** y puertos y adaptadores, y clientes **reactivos con WebFlux y Resilience4j**, siempre con tests de integración sobre **Testcontainers** y CI en GitHub Actions.
+- 🤖 Uso a diario **Claude Code, Codex y OpenCode**, trabajo con **SDD** a partir de documentos de diseño y ADRs, e integro LLMs en mis aplicaciones con la **API de Anthropic**.
 - 🎓 Técnico Superior en DAM y estudiante del **Grado en Ingeniería Informática** en la UOC.
 - 👀 Fuera del código: videojuegos, cine y música.
 - 😄 Pronombres: he/him
@@ -27,6 +27,7 @@
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Modulith-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
   <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -42,13 +43,22 @@
   <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white" />
 </p>
 
+**Testing y calidad**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Testcontainers-291A3F?style=for-the-badge&logo=testcontainers&logoColor=white" />
+  <img src="https://img.shields.io/badge/WireMock-1F2937?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ArchUnit-3B5998?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
+</p>
+
 **DevOps y cloud**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
   <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
@@ -66,7 +76,9 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anthropic_API-191919?style=for-the-badge&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCode-111111?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=anthropic&logoColor=white" />
 </p>
 
@@ -78,13 +90,21 @@
   <tr>
     <td width="70">🥇</td>
     <td>
+      <a href="https://github.com/AnxnimusDev/uoc-study-planner"><b>uoc-study-planner</b></a> <sub>· en desarrollo</sub><br/>
+      Planificador de estudio para la UOC: lee el aula Canvas, <b>extrae los requisitos de cada reto con Claude</b> y reparte el trabajo en las horas libres (calendario .ics, PDF semanal y correo). <b>Monolito modular</b> con Spring Modulith y puertos y adaptadores, decisiones documentadas en ADRs y tests de integración con Testcontainers.<br/>
+      <code>Java 21</code> · <code>Spring Boot 3.5</code> · <code>Spring Modulith</code> · <code>PostgreSQL</code> · <code>Anthropic API</code> · <code>Testcontainers</code> · <code>WireMock</code> · <code>ArchUnit</code>
+    </td>
+  </tr>
+  <tr>
+    <td>🥈</td>
+    <td>
       <a href="https://github.com/AnxnimusDev/valorant-hub"><b>valorant-hub</b></a> <sub>· en pausa, a la espera de la API de producción de Riot</sub><br/>
       Plataforma de analítica de partidas de Valorant. Cliente <b>reactivo</b> contra la API de Riot Games con <b>rate limiting y circuit breaker</b>, migraciones con Flyway, importación idempotente y CI con builds en matriz.<br/>
       <code>Java 21</code> · <code>Spring Boot</code> · <code>WebFlux</code> · <code>Resilience4j</code> · <code>PostgreSQL</code> · <code>React</code> · <code>TypeScript</code> · <code>GitHub Actions</code>
     </td>
   </tr>
   <tr>
-    <td>🥈</td>
+    <td>🥉</td>
     <td>
       <a href="https://github.com/AnxnimusDev/order-system"><b>order-system</b></a><br/>
       Gestión de pedidos e inventario con <b>arquitectura de microservicios</b>: API Gateway, Eureka, coreografía de eventos con Kafka y persistencia políglota. Nueve contenedores con Docker Compose.<br/>
@@ -92,19 +112,11 @@
     </td>
   </tr>
   <tr>
-    <td>🥉</td>
+    <td>4️⃣</td>
     <td>
       <a href="https://github.com/AnxnimusDev/Slow-n-Steady"><b>Slow-n-Steady</b></a><br/>
       Web app para la gestión de proyectos Scrum. Proyecto final de bootcamp, desarrollado en equipo.<br/>
       <code>Java</code> · <code>CSS</code> · <code>JavaScript</code>
-    </td>
-  </tr>
-  <tr>
-    <td>4️⃣</td>
-    <td>
-      <a href="https://github.com/AnxnimusDev/AppFullStack-ControlEscolar"><b>AppFullStack-ControlEscolar</b></a><br/>
-      Aplicación fullstack para el control y la gestión escolar.<br/>
-      <code>Java</code> · <code>HTML</code> · <code>CSS</code>
     </td>
   </tr>
 </table>
@@ -113,6 +125,7 @@
 <summary><b>Otros proyectos</b></summary>
 <br/>
 
+- [**AppFullStack-ControlEscolar**](https://github.com/AnxnimusDev/AppFullStack-ControlEscolar): aplicación fullstack para el control y la gestión escolar. `Java` · `HTML` · `CSS`
 - [**Python-MVC**](https://github.com/AnxnimusDev/Python-MVC): aplicación de consola en Python con patrón MVC para gestionar amigos, conectada a base de datos. `Python`
 - [**The-Last-Omen**](https://github.com/AnxnimusDev/The-Last-Omen): videojuego desarrollado como proyecto final del CFGS con el motor Godot. `GDScript` · `Godot Engine`
 
